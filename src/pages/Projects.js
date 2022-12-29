@@ -2,11 +2,11 @@ import { useLocation } from "react-router-dom"
 
 import { useState, useEffect } from "react"
 
-import Message from '../layout/Message'
-import Container from '../layout/Container'
-import Loading from '../layout/Loading'
-import LinkButton from '../layout/LinkButton'
-import ProjectCard from '../project/ProjectCard'
+import Message from '../components/layout/Message'
+import Container from '../components/layout/Container'
+import Loading from '../components/layout/Loading'
+import LinkButton from '../components/layout/LinkButton'
+import ProjectCard from '../components/project/ProjectCard'
 
 import styles from './Projects.module.css'
 
